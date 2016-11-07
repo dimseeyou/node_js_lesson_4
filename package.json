@@ -1,0 +1,8 @@
+{ "dependencies": {
+    "body-parser": "*",
+    "cheerio": "*",
+    "consolidate": "*",
+    "express": "*",
+    "handlebars": "*",
+    "request": "*"
+ }}
