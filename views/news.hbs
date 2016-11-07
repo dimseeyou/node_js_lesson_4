@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    {{#if matchtv}}
+        <b style="color: red">{{pageTitle}}</b>
+        {{#data}}
+            <p><em style = "color:#333336" > {{tag}} </em>{{title}}</p>
+        {{/data}}
+    {{/if}}
+
+    {{#if sovsport}}
+        <b style="color: red">{{pageTitle}}</b>
+            {{#data}}
+                <p><em style = "color:#333336">
+                {{tag}}
+                </em>{{title}}</p>
+            {{/data}}
+    {{/if}}         
+
+
+</body>
+</html>
